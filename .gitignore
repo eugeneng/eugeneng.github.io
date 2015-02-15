@@ -20,18 +20,40 @@
 *.tar
 *.zip
 
+# Numerous always-ignore extensions #
+#####################################
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+
 # Logs and databases #
 ######################
 *.log
 *.sql
 *.sqlite
 
-# OS generated files #
-######################
+# OS and Editor generated files #
+#################################
 .DS_Store
-.DS_Store?
 ._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+.idea
+
+# Ignore docs files #
+#####################
+_gh_pages
+_site
+.ruby-version
