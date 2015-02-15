@@ -11,7 +11,7 @@ relative_permalinks: true
 # Setup
 title:               Awesomesaucecode
 tagline:
-description:         "A little somewhere to express my views, share my findings and perhaps the occasional rant"
+description:         "A little somewhere to express my personal views, share my findings and perhaps the occasional rant"
 # description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:                 www.awesomesaucecode.com
 baseurl:             /
