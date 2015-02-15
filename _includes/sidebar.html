@@ -5,11 +5,20 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
+    <p>_> whoami
+    </br>Hacker\Eugene Ng
+    </br>
+    </br>From: <a href="http://en.wikipedia.org/wiki/Little_red_dot">The Little Red Dot</a>
+    </br>Email: <a href="mailto:eugenenegue at gmail dot com">eugenenegue@gmail.com</a>
+    </br>LinkedIn: <a href="https://sg.linkedin.com/in/eugenenq">eugenenq</a>
+    </br>Twitter: <a href="https://twitter.com/eugenenq">@eugenenq</a>
+    </p>
+
     <p>{{ site.description }}</p>
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+    <!-- <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a> -->
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -25,7 +34,7 @@
       {% endif %}
     {% endfor %}
 
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}/atom.xml">Feed</a>
+    <a class="sidebar-nav-item" href="{{ site.github.repo }}/atom.xml">Subscribe</a>
     <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a> -->
     <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a> -->
     <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
@@ -33,7 +42,7 @@
 
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }} Awesomesaucecode.</br>All Rights Reserved.
+      &copy; {{ site.time | date: '%Y' }} Awesomesaucecode</br>All Rights Reserved
     </p>
   </div>
 </div>
