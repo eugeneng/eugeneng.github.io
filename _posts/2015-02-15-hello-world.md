@@ -1,10 +1,14 @@
 ---
 layout: post
-title: Hello World
+title: And so it begins
 comments: true
 ---
 
-Hello, World
+Here goes nothing...
 
-Great! This works just as expected :)
+{% highlight py linenos %}
+# 2ez
+print "Hello, World!"
+{% endhighlight %}
 
+It works! :)
