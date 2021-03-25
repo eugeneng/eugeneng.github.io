@@ -19,9 +19,9 @@ paginate:            5
 
 # About/contact
 author:
-  name:              Eugene Ng
-  url:               https://twitter.com/eugenenq
-  email:             eugenenegue@gmail.com
+  name:              Eugene N
+  url:
+  email:
 
 # Custom vars
 version:             1.0.0
